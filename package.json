@@ -18,6 +18,10 @@
     "example",
     "heroku"
   ],
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "devDependencies": {
     "chai": "^4.1.2",
     "enzyme": "^3.2.0",
