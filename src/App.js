@@ -22,7 +22,7 @@ class Main extends Component {
 
     onShiftChange(evt) {
       const shift = evt.target.value;
-      this.setState({ shiftAmt: parseInt(shift) });
+      this.setState({ shiftAmt: parseInt(shift, 10) });
     }
 
     onPlainChange(evt) {
